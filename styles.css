@@ -1,0 +1,240 @@
+h1 {
+  margin: 0;
+  font-size: 5.625rem;
+  margin-top: 50px;
+}
+body {
+  margin: 0;
+  text-align: center;
+  /* background: #1d1d1d; */
+
+  /* font-family: "Dancing Script", cursive; */
+  /*    font-family: "Lora", serif; */
+}
+span {
+  text-decoration: underline;
+}
+.top-container {
+  background-color: #ccf3ee;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  /* margin: 100px 0; */
+  /* background-color: #ccf3ee#1d1d1d; */
+  /* background-color: hsl(316deg 30% 36%); */
+  background-color: #eeb4aa;
+  font-family: "Cookie", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Lora", serif;
+  font-family: "Nuosu SIL", serif;
+  font-family: "Signika", sans-serif;
+  padding-top: 100px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+h1 {
+  font-family: "Cookie", cursive;
+  font-size: 50px;
+}
+P {
+  font-family: "Nuosu SIL", serif;
+  font-size: 20px;
+}
+.profile-pic {
+  height: 300px;
+  width: 350px;
+  border-radius: 100%;
+  top: 100%;
+  border-color: #27292c;
+}
+.motarboard {
+  height: 100px;
+  width: 100px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.react-logo {
+  float: left;
+  margin-right: 30px;
+}
+.python-logo {
+  float: left;
+  margin-right: 30px;
+}
+.Neo4j-logo {
+  float: right;
+  margin-right: 30px;
+}
+hr {
+  border: dotted#EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 60px auto;
+}
+.btn {
+  color: #fff;
+  background: #444;
+  transition: 0.5s;
+  text-decoration: none;
+  position: relative;
+  padding: 10px 30px;
+  letter-spacing: 0.3em;
+  font-size: 1.5em;
+  margin-top: 50%;
+}
+.contact-me a.btn:hover {
+  letter-spacing: 0.24em;
+  background: var(--clr);
+  color: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+}
+
+.contact-me a.btn::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #27292c;
+  color: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+}
+.me {
+  position: relative;
+  z-index: 1;
+}
+.footer-link {
+  color: #11999e;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #eaf6f6;
+}
+.contact-message {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+p,
+h1 {
+  font-family: "Cookie", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Lora", serif;
+  font-family: "Nuosu SIL", serif;
+  font-family: "Signika", sans-serif;
+}
+.programmer {
+  font-family: "Cookie", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Lora", serif;
+  font-family: "Nuosu SIL", serif;
+  font-family: "Signika", sans-serif;
+}
+.motarboard {
+  color: #11999e;
+  height: auto;
+}
+/* .profile {
+  box-shadow: inset 0 0 0 4px #000, inset -4px -4px 0 6px #ccc;
+  max-width: 400px;
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+} */
+
+/* .skill {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  max-width: 400px;
+  position: relative;
+  padding: 2rem;
+  box-shadow: inset 0 0 0 4px #000, inset -4px -4px 0 6px #ccc;
+}
+
+.skill h2::before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transform-origin: 0 bottom 0;
+  transform: scaleY(0);
+  transition: 0.4s ease-out;
+}
+.skill:hover {
+  color: #fff;
+}
+.skill:before {
+  transform: scaleY(1);
+} */
+
+.additional-skills {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.inner {
+  position: relative;
+  border: 0px solid #ddd;
+  height: 50px;
+  line-height: 50px;
+  font-size: 35px;
+  text-transform: uppercase;
+  overflow: hidden;
+  display: inline-block;
+}
+.inner span {
+  animation: animate 8s ease infinite;
+  position: relative;
+  color: #d4cfca;
+}
+@keyframes animate {
+  0%,
+  100% {
+    top: 0;
+  }
+  20% {
+    top: 0px;
+  }
+  25% {
+    top: -50px;
+  }
+  45% {
+    top: -50px;
+  }
+  50% {
+    top: -100px;
+  }
+  70% {
+    top: -100px;
+  }
+  75% {
+    top: -150px;
+  }
+  95% {
+    top: -150px;
+  }
+}
